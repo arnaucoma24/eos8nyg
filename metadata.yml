@@ -2,11 +2,11 @@ Identifier: eos8nyg
 Slug: reference-library-similarity
 Status: In progress
 Title: Ersilia Reference Library Similarity
-Description: Retrieves the 100 nearest neighbours of a query molecule in the
-  Ersilia Reference Library, a set of 1.36 million compounds maintained by
+Description: Retrieves the 100 nearest neighbours of a query molecule in the 
+  Ersilia Reference Library, a set of 1.36 million compounds maintained by 
   Ersilia. Three learned embeddings are searched independently, namely CLAMP for
-  bioactivity, SAND for 3D shape and Mol-JEPA for predicted biological context,
-  and their rankings are fused into one list. Ersilia built the search with
+  bioactivity, SAND for 3D shape and Mol-JEPA for predicted biological context, 
+  and their rankings are fused into one list. Ersilia built the search with 
   LazySim, which indexes each embedding with turbovec 4-bit quantization.
 Deployment:
   - Local
@@ -21,8 +21,8 @@ Output:
   - Compound
 Output Dimension: 100
 Output Consistency: Fixed
-Interpretation: The 100 closest compounds in the Ersilia Reference Library, fused
-  across the CLAMP, SAND and Mol-JEPA rankings.
+Interpretation: The 100 closest compounds in the Ersilia Reference Library, 
+  fused across the CLAMP, SAND and Mol-JEPA rankings.
 Tag:
   - Similarity
   - Embedding
@@ -36,3 +36,4 @@ Publication: https://github.com/ersilia-os/lazy-sim
 Source Code: https://github.com/ersilia-os/lazy-sim
 License: Non-commercial
 Contributor: arnaucoma24
+Incorporation Date: '2026-10-19'
